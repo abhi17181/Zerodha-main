@@ -19,6 +19,7 @@ function Team() {
           <h4 className="mt-5">Nithin Kamath</h4>
           <h6>Founder, CEO</h6>
         </div>
+        
         <div className="col-6 p-3">
           <p>
             Nithin bootstrapped and founded Zerodha in 2010 to overcome the
