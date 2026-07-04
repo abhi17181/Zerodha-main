@@ -1,0 +1,462 @@
+/* ── Page Layout ── */
+.signup-page {
+  min-height: 100vh;
+  background: #fff;
+  padding: 0 40px;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.hero-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.hero-subheading {
+  font-size: 15px;
+  color: #666;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 20px 40px 60px;
+  flex-wrap: wrap;
+}
+
+/* ── Form Side ── */
+.form-side {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.toggle-tabs {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 24px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #888;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.tab-btn.active {
+  color: #387ed1;
+  border-bottom: 3px solid #387ed1;
+}
+
+.signup-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.signup-sub {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* ── Inputs ── */
+.form-input {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+.form-input:focus {
+  border-color: #387ed1;
+}
+
+/* ── Button ── */
+.otp-btn {
+  width: 100%;
+  padding: 14px;
+  background: #387ed1;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background 0.2s;
+}
+
+.otp-btn:hover {
+  background: #2d6bb5;
+}
+
+.otp-btn:disabled {
+  background: #a0bfe8;
+  cursor: not-allowed;
+}
+
+/* ── Messages ── */
+.error-text {
+  color: #e53935;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.success-text {
+  color: #2e7d32;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* ── Switch & Terms ── */
+.switch-text {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.switch-link {
+  color: #387ed1;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.switch-link:hover {
+  text-decoration: underline;
+}
+
+.terms-text {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}
+
+.link {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ── Dashboard Mockup ── */
+.mockup-wrapper {
+  position: relative;
+  width: 480px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.card {
+  position: absolute;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  padding: 16px;
+}
+
+/* Kite Card */
+.kite-card {
+  top: 0; left: 0;
+  width: 180px;
+}
+
+.kite-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.kite-icon {
+  color: #e63946;
+  font-size: 16px;
+}
+
+.kite-tagline {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.index-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.index-label {
+  font-size: 10px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.index-bar {
+  flex: 1;
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  min-width: 30px;
+}
+
+.index-bar-fill {
+  height: 100%;
+  background: #387ed1;
+  border-radius: 2px;
+}
+
+/* Console Card */
+.console-card {
+  top: 20px; left: 160px;
+  width: 220px;
+}
+
+.console-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.tab-inactive {
+  font-size: 10px;
+  color: #aaa;
+}
+
+.tab-active {
+  font-size: 10px;
+  color: #387ed1;
+  font-weight: 600;
+  border-bottom: 2px solid #387ed1;
+}
+
+.console-label {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.console-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.donut-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-text {
+  font-size: 10px;
+  color: #555;
+}
+
+.holdings-label {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.holdings-bars {
+  display: flex;
+  gap: 4px;
+}
+
+.holdings-bar {
+  height: 6px;
+  border-radius: 3px;
+}
+
+/* Portfolio Card */
+.portfolio-card {
+  top: 220px; left: 120px;
+  width: 220px;
+}
+
+.portfolio-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.ptab-active {
+  font-size: 11px;
+  color: #387ed1;
+  font-weight: 600;
+  border-bottom: 2px solid #387ed1;
+}
+
+.ptab {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.portfolio-links {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.pt-link {
+  font-size: 10px;
+  color: #555;
+}
+
+.pt-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.pt-row {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.pt-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pt-footer-label {
+  font-size: 10px;
+  color: #aaa;
+}
+
+/* Coin Badge */
+.coin-badge {
+  position: absolute;
+  bottom: 40px; left: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 10px 14px;
+}
+
+.coin-icon {
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.coin-text {
+  font-size: 11px;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* Hi Bubble */
+.hi-bubble {
+  position: absolute;
+  top: 130px; left: 10px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+  padding: 8px 16px;
+  font-size: 13px;
+  color: #444;
+}
+
+/* Equity Tabs */
+.equity-tabs {
+  position: absolute;
+  top: 170px; left: 10px;
+  display: flex;
+  gap: 16px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  padding: 8px 16px;
+}
+
+.etab-active {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.etab {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mockup-wrapper {
+    width: 100%;
+    height: 350px;
+  }
+
+  .form-side {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 22px;
+  }
+}
