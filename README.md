@@ -97,7 +97,7 @@ Dashboard runs on → `http://localhost:3001`
 - 💼 Training— HCL Technologies
 - 🔗 GitHub: [@abhi17181](https://github.com/abhi17181)
 - 📧 Email: as7651173@gmail.com
-- 🔗 LinkedIn: []
+- 🔗 LinkedIn: [https://www.linkedin.com/in/abhishekksingh18/]
 
 ---
 
