@@ -10,7 +10,7 @@ const jwt = require("jsonwebtoken");
 const { HoldingsModel } = require("./model/HoldingsModel");
 const { PositionsModel } = require("./model/PositionsModel");
 const { OrdersModel } = require("./model/OrdersModel");
-const { UserModel } = require("./model/UserModel"); // ← add karo
+const { UserModel } = require("./model/userModel");
 
 const PORT = process.env.PORT || 3002;
 const URL = process.env.MONGO_URL;
