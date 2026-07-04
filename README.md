@@ -13,7 +13,6 @@ A full-stack stock trading platform clone built with the MERN Stack, replicating
 | Backend | Node.js, Express.js |
 | Database | MongoDB Atlas, Mongoose |
 | Authentication | JWT, Bcrypt |
-| Deployment | Netlify (Frontend), Render (Backend) |
 
 ---
 
