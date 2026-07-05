@@ -9,7 +9,7 @@ function Footer() {
           {/* Column 1 */}
           <div className="col-md-3 mb-4">
             <img
-              src="Media/images/logo.svg"
+              src="media/images/logo.svg"
               alt="logo"
               style={{ width: "60%" }}
             />

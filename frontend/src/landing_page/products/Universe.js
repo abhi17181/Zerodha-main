@@ -6,7 +6,7 @@ function Universe() {
                 <h1 className="mt-5">The Zerodha Universe</h1>
                 <p>Extend your trading and investment experience even further with our partner platforms</p>
                 <div className="col-4 mt-3">
-                    <img src="Media/images/zerodhaFundhouse1.png" className="img-fluid w-50" />
+                    <img src="media/images/zerodhaFundhouse1.png" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-3" style={{ fontSize: "13px" }}>
                         Our asset management venture
                         <br />
@@ -17,7 +17,7 @@ function Universe() {
                     </p>
                 </div>
                 <div className="col-4 mt-4">
-                    <img src="Media/images/sensibullLogo.svg" className="img-fluid w-50" />
+                    <img src="media/images/sensibullLogo.svg" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-4" style={{ fontSize: "13px" }}>
                         Options trading platform that lets you
                         <br />
@@ -26,7 +26,7 @@ function Universe() {
                         data points like open interest, FII/DII, and more.</p>
                 </div>
                 <div className="col-4 mt-3">
-                    <img src="Media/images/tijori.svg" className="img-fluid w-50" />
+                    <img src="media/images/tijori.svg" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-2" style={{ fontSize: "13px" }}>
                         Investment research platform
                         <br />
@@ -36,7 +36,7 @@ function Universe() {
                 </div>
 
                 <div className="col-4 mt-5">
-                    <img src="Media/images/streakLogo.png" className="img-fluid w-50" />
+                    <img src="media/images/streakLogo.png" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-3" style={{ fontSize: "13px" }}>
                         Systematic trading platform
                         <br />
@@ -45,7 +45,7 @@ function Universe() {
                         strategies without coding.</p>
                 </div>
                 <div className="col-4 mt-5">
-                    <img src="Media/images/smallcaseLogo.png" className="img-fluid w-50" />
+                    <img src="media/images/smallcaseLogo.png" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-4" style={{ fontSize: "13px" }}>
                         Thematic investing platform
                         <br />
@@ -54,7 +54,7 @@ function Universe() {
                         baskets of stocks on ETFs.</p>
                 </div>
                 <div className="col-4 mt-5">
-                    <img src="Media/images/dittoLogo.png" className="img-fluid w-50" />
+                    <img src="media/images/dittoLogo.png" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-3" style={{ fontSize: "13px" }}>
                         Personalized advice on life
                         <br />
