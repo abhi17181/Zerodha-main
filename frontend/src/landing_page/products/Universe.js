@@ -6,7 +6,7 @@ function Universe() {
                 <h1 className="mt-5">The Zerodha Universe</h1>
                 <p>Extend your trading and investment experience even further with our partner platforms</p>
                 <div className="col-4 mt-3">
-                    <img src="media/images/zerodhaFundhouse1.png" className="img-fluid w-50" />
+                    <img src="media/images/zerodhafundhouse1.png" className="img-fluid w-50" />
                     <p className="text-small text-muted mt-3" style={{ fontSize: "13px" }}>
                         Our asset management venture
                         <br />
