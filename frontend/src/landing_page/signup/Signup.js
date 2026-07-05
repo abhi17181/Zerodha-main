@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import "./Signup.css";
 
 const DonutChart = () => (
@@ -102,7 +101,6 @@ const DashboardMockup = () => (
 );
 
 const Signup = () => {
-  const navigate                = useNavigate();
   const [isLogin, setIsLogin]   = useState(false);
   const [name, setName]         = useState("");
   const [email, setEmail]       = useState("");
@@ -135,9 +133,10 @@ const Signup = () => {
     setSuccess("");
 
     try {
+      // ✅ Updated Backend URL
       const endpoint = isLogin
-        ? "http://localhost:3002/login"
-        : "http://localhost:3002/signup";
+        ? "https://zerodha-main-f4tg.onrender.com/login"
+        : "https://zerodha-main-f4tg.onrender.com/signup";
 
       const body = isLogin
         ? { email, password }
@@ -161,7 +160,7 @@ const Signup = () => {
           localStorage.setItem("name", data.name);
         }
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://YOUR-DASHBOARD-URL.onrender.com";
         }, 1000);
       } else {
         setError(data.message);
