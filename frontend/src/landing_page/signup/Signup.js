@@ -160,7 +160,8 @@ const Signup = () => {
           localStorage.setItem("name", data.name);
         }
         setTimeout(() => {
-          window.location.href = "https://YOUR-DASHBOARD-URL.onrender.com";
+          const encodedName = encodeURIComponent(data.name);
+          window.location.href = `https://zerodha-main-2-jger.onrender.com?name=${encodedName}`;
         }, 1000);
       } else {
         setError(data.message);
