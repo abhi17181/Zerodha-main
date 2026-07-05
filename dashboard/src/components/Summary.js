@@ -1,7 +1,7 @@
 import React from "react";
 
 const Summary = () => {
-  // ✅ localStorage se naam lo
+
   const userName = localStorage.getItem("name") || "User";
 
   return (

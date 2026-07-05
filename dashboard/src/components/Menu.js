@@ -5,7 +5,6 @@ const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
 
-  // ✅ localStorage se name aur initials lo
   const userName = localStorage.getItem("name") || "User";
   const initials = userName
     .split(" ")
